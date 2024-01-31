@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div .box{
+  border: 3px solid black;
+
+}
+
+input{
+  border-radius: 5px;
+}
+h5{
+  margin: 15px;
+}
+input[type="submit"]{
+  background-color: greenyellow;
+  padding: 0px 20px 0px 20px;
+}
+button{
+  background-color: red;
+  color: white;
+  padding: 2px;
+  border-radius: 3px;
 }
